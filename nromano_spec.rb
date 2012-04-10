@@ -14,5 +14,9 @@ describe Nromano do
 			@nromano.convertir(2).should == "II"
 		end
 
+		it "convertir 3 en III" do
+			@nromano = Nromano.new()
+			@nromano.convertir(3).should == "III"
+		end
 	end
 end

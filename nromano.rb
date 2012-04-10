@@ -1,12 +1,14 @@
 class Nromano
 
 	def convertir(num)
-		if num == 1
-			return "I"
+
+		result = ""
+		while num >= 1
+			result +="I"
+			num -= 1
 		end
-		if num == 2
-			return "II"
-		end	
+		return result
+		
 	end
 
 end
