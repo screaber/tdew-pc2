@@ -24,5 +24,10 @@ describe Nromano do
 			@nromano.convertir(4).should == "IV"
 		end
 
+		it "convertir 5 en V" do
+			@nromano = Nromano.new()
+			@nromano.convertir(5).should == "V"
+		end
+
 	end
 end
