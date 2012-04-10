@@ -54,5 +54,55 @@ describe Nromano do
 			@nromano.convertir(10).should == "X"
 		end
 
+		it "convertir 11 en XI" do
+			@nromano = Nromano.new()
+			@nromano.convertir(11).should == "XI"
+		end
+
+		it "convertir 12 en XI" do
+			@nromano = Nromano.new()
+			@nromano.convertir(12).should == "XII"
+		end
+		
+		it "convertir 13 en XIII" do
+			@nromano = Nromano.new()
+			@nromano.convertir(13).should == "XIII"
+		end
+
+		it "convertir 14 en XIV" do
+			@nromano = Nromano.new()
+			@nromano.convertir(14).should == "XIV"
+		end
+
+		it "convertir 15 en XIV" do
+			@nromano = Nromano.new()
+			@nromano.convertir(15).should == "XV"
+		end
+
+		it "convertir 16 en XVI" do
+			@nromano = Nromano.new()
+			@nromano.convertir(16).should == "XVI"
+		end
+
+		it "convertir 17 en XVII" do
+			@nromano = Nromano.new()
+			@nromano.convertir(17).should == "XVII"
+		end
+
+		it "convertir 18 en XVIII" do
+			@nromano = Nromano.new()
+			@nromano.convertir(18).should == "XVIII"
+		end
+
+		it "convertir 19 en XIX" do
+			@nromano = Nromano.new()
+			@nromano.convertir(19).should == "XIX"
+		end
+
+		it "convertir 20 en XX" do
+			@nromano = Nromano.new()
+			@nromano.convertir(20).should == "XX"
+		end
+
 	end
 end
