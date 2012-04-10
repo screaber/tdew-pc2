@@ -9,5 +9,10 @@ describe Nromano do
 			@nromano.convertir(1).should == "I"
 		end
 
+		it "convertir 2 en II" do
+			@nromano = Nromano.new()
+			@nromano.convertir(2).should == "II"
+		end
+
 	end
 end
