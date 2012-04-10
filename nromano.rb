@@ -1,5 +1,5 @@
 class Nromano
- 	SYMBOLS = [["X",10], ["IX",9], ["V",5], ["IV",4],["I",1]]
+ 	SYMBOLS = [["L",50], ["X",10], ["IX",9], ["V",5], ["IV",4],["I",1]]
 
 	def convertir(num)
 

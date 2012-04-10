@@ -104,5 +104,9 @@ describe Nromano do
 			@nromano.convertir(20).should == "XX"
 		end
 
+		it "convertir 50 en L" do
+			@nromano = Nromano.new()
+			@nromano.convertir(50).should == "L"
+		end
 	end
 end
