@@ -5,6 +5,11 @@ class Nromano
 		if num == 4
 			return "IV"
 		end
+
+		if num == 9
+			return "IX"
+		end
+
 		
 		if num >=5
 			result = "V"

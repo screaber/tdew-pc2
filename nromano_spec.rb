@@ -43,5 +43,10 @@ describe Nromano do
 			@nromano = Nromano.new()
 			@nromano.convertir(8).should == "VIII"
 		end
+
+		it "convertir 9 en IX" do
+			@nromano = Nromano.new()
+			@nromano.convertir(9).should == "IX"
+		end
 	end
 end
