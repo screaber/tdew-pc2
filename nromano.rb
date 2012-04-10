@@ -14,6 +14,10 @@ class Nromano
 			return "VI"
 		end
 
+		if num == 7
+			return "VII"
+		end
+
 		result = ""
 		while num >= 1
 			result +="I"

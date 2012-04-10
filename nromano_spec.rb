@@ -33,5 +33,10 @@ describe Nromano do
 			@nromano = Nromano.new()
 			@nromano.convertir(6).should == "VI"
 		end
+
+		it "convertir 7 en VII" do
+			@nromano = Nromano.new()
+			@nromano.convertir(7).should == "VII"
+		end
 	end
 end
