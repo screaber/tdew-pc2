@@ -29,5 +29,9 @@ describe Nromano do
 			@nromano.convertir(5).should == "V"
 		end
 
+		it "convertir 6 en VI" do
+			@nromano = Nromano.new()
+			@nromano.convertir(6).should == "VI"
+		end
 	end
 end

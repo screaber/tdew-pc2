@@ -8,8 +8,11 @@ class Nromano
 
 		if num == 5
 			return "V"
-		end		
+		end
 
+		if num == 6
+			return "VI"
+		end
 
 		result = ""
 		while num >= 1
