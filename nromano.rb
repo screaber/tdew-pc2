@@ -1,30 +1,17 @@
 class Nromano
+ 	SYMBOLS = [["X",10], ["IX",9], ["V",5], ["IV",4],["I",1]]
 
 	def convertir(num)
 
-		if num == 4
-			return "IV"
-		end
-
-		if num == 9
-			return "IX"
-		end
-
-		
-		if num >=5
-			result = "V"
-			while num > 5
-				result +="I"
-				num -= 1
+		result = ""
+		SYMBOLS.each do | romano, numero |
+			while num >= numero
+				result += romano
+				num -= numero
 			end
-		else
-			result = ""
-			while num >= 1
-				result +="I"
-				num -= 1
-			end	
 		end
-		return result
+
+	return result
 		
 	end
 
